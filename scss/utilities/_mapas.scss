@@ -1,0 +1,14 @@
+$heading : (
+    h1: 6rem,
+    h2: 5rem,
+    h3: 4rem,
+    h4: 3rem,
+    h5: 2rem,
+    h6: 1rem
+);
+
+@each $titulos, $size in $heading {
+    #{$heading} {
+        font-size: $size;
+    }   
+}
